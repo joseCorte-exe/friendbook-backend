@@ -4,9 +4,9 @@ import database from './database/database.mjs'
 
 import booksRoutes from './routes/books.routes.js'
 import institutionsRoutes from './routes/institutions.routes.js'
+import cors from 'cors'
 
 const app = express()
-const cors = module.require('cors')
 app.use(cors())
 
 app.use(json())
