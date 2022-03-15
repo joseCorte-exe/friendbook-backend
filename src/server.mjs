@@ -6,7 +6,7 @@ import booksRoutes from './routes/books.routes.js'
 import institutionsRoutes from './routes/institutions.routes.js'
 
 const app = express()
-const cors = require('cors')
+const cors = module.require('cors')
 app.use(cors())
 
 app.use(json())
