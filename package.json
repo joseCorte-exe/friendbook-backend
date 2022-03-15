@@ -1,0 +1,25 @@
+{
+  "name": "friendbookbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "nodemon --experimental-modules src/server.mjs",
+    "start": "node src/server.mjs"
+  },
+  "author": "José Corte <josecarlos-corte@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6",
+    "nodemon": "^2.0.15"
+  }
+}
